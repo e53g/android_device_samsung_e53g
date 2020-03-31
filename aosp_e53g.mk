@@ -3,8 +3,12 @@ $(call inherit-product, device/samsung/msm8916-common/aosp.mk)
 
 $(call inherit-product, device/samsung/e53g/device.mk)
 
-# Device identifier. This must come after all inclusions
+## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := e53g
 PRODUCT_NAME := aosp_e53g
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-E500H
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_CHARACTERISTICS := phone
 
+PRODUCT_GMS_CLIENTID_BASE := android-samsung

@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/e53g/e53g-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/e5-common/device-common.mk)
+$(call inherit-product, device/samsung/msm8916-common/msm8916.mk)
 
 LOCAL_PATH := device/samsung/e53g
 
