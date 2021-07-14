@@ -1,4 +1,3 @@
-
 # Inherit from common
 $(call inherit-product, device/samsung/e5-common/lineage.mk)
 

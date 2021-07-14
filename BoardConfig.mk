@@ -4,7 +4,7 @@ include device/samsung/e5-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/e53g
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := e53g
+TARGET_OTA_ASSERT_DEVICE := e53g,e53gxx,E500H,SM-E500H
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_e53g_eur_defconfig
